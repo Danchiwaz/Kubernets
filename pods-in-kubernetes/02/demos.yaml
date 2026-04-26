@@ -1,19 +1,16 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Pod
 metadata:
-  name: deployment1
+  name: simple-app
+  labels:
+    app: simple-app
 spec:
-  replicas: 3
-  selector:
-    matchLabels:
-      app: app2
-  template:
-    metadata:
-      labels:
-        app: app2
-    spec:
-      containers:
-      - name: my-container
-        image: nginx:1.27.3
-        ports:
-        - containerPort: 80
+  containers:
+    - name: simple-app
+      image: danchiwaz/simple-app:latest
+      ports:
+        - containerPort: 6000
+
+
+
+

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: two-containers-app
+  labels:
+    app: two-containers-app
+spec:
+  containers:
+    - name: two-containers-app
+      image: danchiwaz/simple-app:latest
+      ports:
+        - containerPort: 6000
+
+    - name: sidecar-container
+      image: busybox
+      command: ["/bin/sh", "-c", "while true; do echo 'Logging message from sidecar'; sleep 5; done"]
