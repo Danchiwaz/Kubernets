@@ -11,7 +11,7 @@ logger = logging.getLogger()
 @app.route('/')
 def hello():
     logger.info("Processing request for '/' endpoint")
-    return 'Hello World!'
+    return 'Hello from kubernetes, becoming the best devops engineer there can ever be'
 
 
 if __name__ == '__main__':

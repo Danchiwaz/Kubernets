@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend
+spec:
+  selector:
+    matchLabels:
+      app: frontend
+  template:
+    metadata:
+      labels:
+        app: frontend
+    spec:
+      containers:
+        - name: curl-container
+          image: curlimages/curl:7.86.0
+          command:
+            - "/bin/sh"
+          args:
+            - "-c"
+            - |
+              while true; do
+                echo "=== Calling backend-service:80 ===="
+                curl -s backend-service:80
+                echo
+                sleep 5
+              done
