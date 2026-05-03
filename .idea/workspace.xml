@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11c3b0a-df19-47cf-96cf-4fbbfaad2653" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pods-in-kubernetes/MetalLB/ip-pool.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pods-in-kubernetes/MetalLB/l2-advert.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pods-in-kubernetes/Nginx/nginx-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pods-in-kubernetes/Nginx/nginx-service.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pods-in-kubernetes/flask_app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/pods-in-kubernetes/flask_app/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1777200237804</updated>
       <workItem from="1777200238856" duration="28166000" />
-      <workItem from="1777743218205" duration="4401000" />
+      <workItem from="1777743218205" duration="5224000" />
     </task>
     <servers />
   </component>
