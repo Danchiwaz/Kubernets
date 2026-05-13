@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+    app: myapp
+    #you can have any key here => you own key to identify the pod in the future
+spec:
+  containers:
+    - name: nginx
+      image: nginx:latest
+

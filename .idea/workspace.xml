@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e11c3b0a-df19-47cf-96cf-4fbbfaad2653" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CKAD/DEPLOYMENTS/deployment-definition.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pods-in-kubernetes/HORIZONTAL SCALLING/hpa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pods-in-kubernetes/HORIZONTAL SCALLING/scaler.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pods-in-kubernetes/HORIZONTAL SCALLING/service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pods-in-kubernetes/02/multi-container.yml" beforeDir="false" afterPath="$PROJECT_DIR$/pods-in-kubernetes/02/multi-container.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CKAD/PODS/pod-defination.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CKAD/PODS/pod-defination.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +86,7 @@
       <updated>1777200237804</updated>
       <workItem from="1777200238856" duration="28166000" />
       <workItem from="1777743218205" duration="11158000" />
-      <workItem from="1777996271789" duration="1544000" />
+      <workItem from="1777996271789" duration="22057000" />
     </task>
     <servers />
   </component>
